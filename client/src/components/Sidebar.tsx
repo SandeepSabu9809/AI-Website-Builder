@@ -202,7 +202,7 @@ const Sidebar = ({isMenuOpen, project, setProject, isGenerating, setIsGenerating
                         onClick={toggleListening}
                         disabled={isGenerating}
                         className={`transition-colors duration-300 outline-none ${
-                            isListening ? 'text-rose-400' : 'text-gray-400 hover:text-indigo-400'
+                            isListening ? 'text-rose-500' : 'text-gray-400 hover:text-indigo-400'
                         }`}
                     >
                         {isListening ? <MicOff size={16} /> : <Mic size={16} />}
